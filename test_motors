@@ -1,0 +1,7 @@
+cd ~/ense810-soccer-robot
+.venv/bin/python - <<'PY'
+from adafruit_servokit import ServoKit
+
+kit = ServoKit(channels=16)
+print("PCA9685 HAT detected and initialised successfully.")
+
